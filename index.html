@@ -1,0 +1,20 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#159447"><meta name="apple-mobile-web-app-capable" content="yes"><title>Abuja 360</title><link rel="manifest" href="manifest.webmanifest"><link rel="stylesheet" href="styles.css"></head><body>
+<div id="app">
+<header class="hud"><div><span class="crown">♛</span><b>Abuja 360</b></div><div class="hudStats"><span id="cash">₦150,000</span><span id="energy">⚡82</span><span id="day">Day 1</span></div></header>
+<main class="city" aria-label="Abuja 360 city map">
+  <div class="skyline" aria-hidden="true"><span>▥</span><span>▥</span><span>▥</span><span>▥</span></div>
+  <div class="districtLabel">ABUJA • FCT</div>
+  <button class="place p-work" data-place="work"><span>🏢</span><b>Work</b><small id="jobLabel">Find a job</small></button>
+  <button class="place p-home" data-place="home"><span>🏠</span><b>Home</b><small>Rest & manage life</small></button>
+  <button class="place p-bank" data-place="bank"><span>🏦</span><b>Bank</b><small>Money & savings</small></button>
+  <button class="place p-market" data-place="market"><span>🛍️</span><b>Wuse Market</b><small>Food & essentials</small></button>
+  <button class="place p-social" data-place="social"><span>🍽️</span><b>Wuse 2</b><small>Eat • network • unwind</small></button>
+  <button class="place p-park" data-place="park"><span>🌳</span><b>Millennium Park</b><small>Relax for free</small></button>
+  <button class="place p-jabi" data-place="jabi"><span>🌊</span><b>Jabi</b><small>Leisure & lifestyle</small></button>
+  <button class="place p-garage" data-place="garage"><span>🚗</span><b>Garage</b><small>Transport</small></button>
+  <div class="road r1"></div><div class="road r2"></div><div class="road r3"></div><div class="water">JABI LAKE</div>
+</main>
+<nav class="dock"><button data-tab="map" class="active">🗺️<span>City</span></button><button data-tab="profile">👤<span>Me</span></button><button data-tab="goals">🏆<span>Goals</span></button><button data-tab="feed">📱<span>Feed</span></button></nav>
+<div id="modal" class="modal hidden" role="dialog" aria-modal="true"><section class="sheet"><button id="close" class="close">×</button><div id="sheetContent"></div></section></div>
+<div id="toast" class="toast hidden" aria-live="polite"></div>
+</div><script src="game.js"></script></body></html>
