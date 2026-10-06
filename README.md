@@ -1,19 +1,23 @@
-# Abuja 360 V1.0
+# Abuja 360 V1.1
 
-Original mobile-first Abuja city life simulation PWA.
+**Build Your Story in the Capital.**
 
-## Play locally
-Open `index.html` through a local web server (service workers require HTTP/HTTPS).
+V1.1 is a visual and gameplay upgrade of the original Abuja 360 mobile-first life simulation PWA.
 
-## GitHub Pages
-1. Create a new public repository, e.g. `abuja-360`.
-2. Upload **the contents of this folder** to the repository root (`index.html`, `styles.css`, `game.js`, `manifest.webmanifest`, `sw.js`, and `assets/`).
-3. Commit the files.
-4. Go to **Settings → Pages**.
-5. Under **Build and deployment**, choose **Deploy from a branch**.
-6. Select branch **main** and folder **/(root)**, then Save.
-7. Wait for GitHub Pages to publish the site and open the URL it provides.
-8. On iPhone Safari, use **Share → Add to Home Screen** to install it like an app.
+## V1.1 highlights
+- richer original illustrated Abuja city environment
+- city traffic, skyline, lake, roundabout and neighbourhood atmosphere
+- quick actions for work, food, rest and side hustle
+- jobs, salary, daily work income and career progression
+- cash and savings
+- food, health, happiness and energy systems
+- home upgrade to Gwarinpa
+- vehicle purchase progression
+- leisure, networking and exercise
+- achievements and persistent life feed
+- local save data and offline-capable PWA
 
-## Notes
-Game progress is stored locally in the browser. V1.0 contains career, work, money, savings, health/energy/happiness/career stats, city activities, achievements, time progression, and an installable offline shell.
+## GitHub Pages update
+Upload/replace the files in the root of your existing `abuja-360` repository. GitHub Pages will redeploy automatically after the commit.
+
+No backend is required. Progress is stored locally in the player's browser.
