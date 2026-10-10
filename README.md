@@ -1,14 +1,13 @@
-# Abuja 360 V2.0
-V2.0 changes Abuja 360 from a menu/map prototype into a playable animated-world prototype.
+# Abuja 360 V2.1 – Living World
+A browser-based playable prototype with tap-to-walk movement, keyboard/mobile controls, animated traffic and NPCs, explorable home, street, office, restaurant and lounge scenes, needs, money, time, purchases and local saving.
 
-## Play
-- PC: WASD / arrow keys to move, E or Space to interact.
-- Mobile: on-screen direction pad + INTERACT.
-- Explore Home, Kubwa Streets, Central Area Office and Wuse 2 Restaurant.
-- NPC pedestrians and traffic animate continuously on the street.
-- Interact with bed, kitchen, shower, office work and restaurant.
+## GitHub Pages
+Upload all files/folders to the root of the existing `abuja-360` repository. GitHub Pages will redeploy automatically.
 
-## GitHub Pages update
-Upload all files in this folder to the root of the existing `abuja-360` repository and commit. Existing Pages settings do not need to change.
+## Controls
+- Tap/click floor: walk there
+- WASD / arrow keys: move
+- E / Space or USE: interact
+- Bottom navigation: Home, Buy, Map, Phone
 
-V2.0 uses a new network-first service-worker cache (`abuja360-v20-200`) to prevent V1.x cache conflicts.
+All artwork in this prototype is original procedural/CSS/canvas artwork and emoji placeholders; no Lagos Life assets are included.
